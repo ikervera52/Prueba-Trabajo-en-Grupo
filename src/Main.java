@@ -40,4 +40,13 @@ public class Main {
 
         System.out.println("El numero que has introducido es" + numero);
     }
+
+    public static void numero (){
+
+        System.out.println("Cual es tu numero");
+        int numero = input.nextInt();
+
+        System.out.println("Este es tu numero "+ numero);
+
+    }
 }
