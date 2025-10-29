@@ -30,6 +30,5 @@ public class Main {
         String apellido = input.nextLine();
 
         System.out.println("Hola " + apellido);
-
     }
 }
