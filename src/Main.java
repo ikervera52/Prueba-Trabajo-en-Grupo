@@ -16,6 +16,8 @@ public class Main {
         fapellidos();
 
         System.out.println("Hola " + nombre + " " + apellido);
+
+        numero();
     }
 
     public static void fapellidos(){
@@ -30,5 +32,12 @@ public class Main {
         String apellido = input.nextLine();
 
         System.out.println("Hola " + apellido);
+    }
+
+    public static void numero(){
+        System.out.println("Cual es tu numero");
+        int numero = input.nextInt();
+
+        System.out.println("El numero que has introducido es" + numero);
     }
 }
