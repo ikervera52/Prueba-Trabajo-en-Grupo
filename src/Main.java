@@ -13,4 +13,14 @@ public class Main {
         System.out.println("Hola " + nombre);
 
     }
+    public static void fapellido (){
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Como te apellidas");
+        String apellido = input.nextLine();
+
+        System.out.println("Hola " + apellido);
+
+    }
 }
