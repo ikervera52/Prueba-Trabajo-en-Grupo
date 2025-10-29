@@ -7,5 +7,10 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
+        System.out.println("Como te llamas");
+        String nombre = input.nextLine();
+
+        System.out.println("Hola " + nombre);
+
     }
 }
