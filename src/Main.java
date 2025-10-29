@@ -32,4 +32,13 @@ public class Main {
         System.out.println("Hola " + apellido);
 
     }
+
+    public static void numero (){
+
+        System.out.println("Cual es tu numero");
+        int numero = input.nextInt();
+
+        System.out.println("Este es tu numero "+ numero);
+
+    }
 }
